@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samu Chat</title>
+    <link rel="stylesheet" href="/style.css">
+    <script>
+        const ROOM_ID = "<%= roomId %>"
+    </script>
+</head>
+<body>
+    <div id="chat-videos"></div>
+    <div id="chat-window">
+        <div id="chat-log"></div>
+        <div id="chat-actions"></div>
+        <div id="chat-upload"></div>
+    </div>
+    <div class="chat-ctrls">
+        <input type="text" placeholder="Mensaje..." id="inputText">
+        <button id="textoSend"> Enviar </button>
+        <button id="fileSend">Enviar un Archivo</button>
+    </div>
+    <div id="chat-users"></div>
+    <div id="chat-files"></div>
+    <script src="peerjs.min.js"></script>
+    <script src="/siofu/client.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>

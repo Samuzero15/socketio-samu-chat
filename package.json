@@ -1,0 +1,23 @@
+{
+  "name": "samu-chat",
+  "version": "1.0.0",
+  "description": "Asignacion de Sockets",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "peer": "^0.6.1",
+    "socket.io": "^4.4.1",
+    "socketio-file-upload": "^0.7.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

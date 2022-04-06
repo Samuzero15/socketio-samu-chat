@@ -1,0 +1,25 @@
+
+#chat-window {
+    width: 640px;
+    height: 480px;
+    background-color: aqua;
+    overflow: auto;
+}
+
+#chat-upload {
+    background-color: chocolate;
+}
+#chat-actions{
+    background-color: coral;
+}
+
+#video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-auto-rows: 300px;
+}
+video {
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
+}
