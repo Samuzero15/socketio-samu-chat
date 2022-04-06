@@ -4,4 +4,4 @@ Necesitas Node.js.
     'npm install' para descargar todas las dependencias.
     'npm run devStart' para ejecutar la app.
 
-# Enlace del video: [Perame aun no e grabao]
+# Enlace del video: https://youtu.be/sdqO8s4TE3M
