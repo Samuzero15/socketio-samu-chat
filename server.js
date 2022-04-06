@@ -43,12 +43,6 @@ io.on('connection', (socket) => {
   uploader.dir = path.join(__dirname,"/uploads/");
   uploader.listen(socket);
 
-  socket.on('join-room', (roomId, userId) => {
-    socket.join(roomId)  // Join the room
-    socket.broadcast.emit('user-connected', userId) // Tell everyone else in the room that we joined
-    
-  })
-
   uploader.on("saved", (e) => {
     // Evento del servidor para el oyente de archivos cuando un archivo es guardado.
     // Revisa si existe el archivo que se subió, y lo reemplaza por el nuevo.

@@ -70,7 +70,6 @@ function conectateAlNuevoUsuario(data, stream) {
 
 // Crea una ventana de video
 function anadeMiVideo(video, stream) {
-    const br = document.createElement("br")
     video.srcObject = stream 
     video.addEventListener('loadedmetadata', () => { // Play the video as it loads
         video.play()

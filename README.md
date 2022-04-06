@@ -1,4 +1,4 @@
-# Practica 1 de Sistemas Distribuidos Sockets Samu Chat
+# Practica 1 de Sistemas Distribuidos
 
 Necesitas Node.js.
     'npm install' para descargar todas las dependencias.
